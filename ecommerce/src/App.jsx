@@ -12,25 +12,25 @@ const App = () => {
 
   const photoCards = [
     {
-      bgImage: "/images/Rectangle 2.png",
+      bgImage: "./images/Rectangle 2.png",
       category: "People",
       title: "Red Bench",
       price: "$3.89",
     },
     {
-      bgImage: "/images/Rectangle 2.1.png",
+      bgImage: "./images/Rectangle 2.1.png",
       category: "Food",
       title: "Egg Baloon",
       price: "$93.89",
     },
     {
-      bgImage: "/images/Rectangle 2.4.png",
+      bgImage: "./images/Rectangle 2.4.png",
       category: "People",
       title: "Man",
       price: "$100.00",
     },
     {
-      bgImage: "/images/Rectangle 2.5.png",
+      bgImage: "./images/Rectangle 2.5.png",
       category: "Landmarks",
       title: "Architecture",
       price: "$101.00",
@@ -44,7 +44,7 @@ const App = () => {
         <p className="text-black font-extrabold text-2xl self-start">
           Samurai King Resting
         </p>
-        <div className="bg-[url(/images/dog1.png)] lg:bg-[url(/images/dog2.png)] mt-2 w-full h-64 lg:h-[500px] bg-cover bg-center flex items-end justify-start my-2">
+        <div className="bg-[url(./images/dog1.png)] lg:bg-[url(./images/dog2.png)] mt-2 w-full h-64 lg:h-[500px] bg-cover bg-center flex items-end justify-start my-2">
           <div className="bg-white text-center px-1 py-3 my-0.5">
             <p>Post of the day</p>
           </div>
